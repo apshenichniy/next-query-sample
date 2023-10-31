@@ -1,12 +1,24 @@
-Sample app to test Next.js 14 App Router and TanStack Query v5, Server Actions, optimistic updates.
+## Sample app to test Next.js 14 App Router and TanStack Query v5, Server Actions, optimistic updates.
 
-Roadmap:
+### Stack:
+
+- Next.js 14 App Router (https://nextjs.org)
+- TanStack Query v5 (https://tanstack.com/query/latest)
+- Prisma ORM (https://www.prisma.io)
+- NeonTech serverless PostgreSQL (https://neon.tech)
+- Server Actions
+
+### Roadmap:
 
 - [ ] user authentification
 - [ ] post comments
 - [ ] edit, delete post/comment
 
-Live: https://next-query-sample.vercel.app
+### Live:
+
+- https://next-query-sample.vercel.app
+
+##
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
