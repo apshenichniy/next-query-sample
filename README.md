@@ -2,9 +2,9 @@ Sample app to test Next.js 14 App Router and TanStack Query v5, Server Actions, 
 
 Roadmap:
 
-- [] user authentification
-- [] post comments
-- [] edit, delete post/comment
+- [ ] user authentification
+- [ ] post comments
+- [ ] edit, delete post/comment
 
 Live: https://next-query-sample.vercel.app
 
