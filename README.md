@@ -1,3 +1,11 @@
+Sample app to test Next.js 14 App Router and TanStack Query v5, Server Actions, optimistic updates.
+
+Roadmap:
+
+- [] user authentification
+- [] post comments
+- [] edit, delete post/comment
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

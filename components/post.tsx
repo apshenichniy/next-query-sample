@@ -15,7 +15,7 @@ const Post: React.FC<{ data: Post }> = ({data: {id, author, title, text, created
         </div>
         <div className="flex items-center">
           <MessageCircle size={20} className="mr-2" />
-          12
+          0
         </div>
         <div className="flex items-center col-span-2">
           <CalendarCheck size={20} className="mr-2" />
