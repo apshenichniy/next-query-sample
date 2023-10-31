@@ -3,23 +3,21 @@
 import { RefreshCw } from "lucide-react"
 
 import { usePosts } from "@/lib/db-hooks"
+import { cn } from "@/lib/utils"
 
 import { Button } from "./ui/button"
 
 const RefreshPosts = () => {
-  const { isPending, refetch } = usePosts()
-  const handleRefresh = () => {
-    refetch()
-  }
+  const { refetch, isFetching } = usePosts()
 
   return (
     <Button
       size="icon"
       variant="ghost"
-      onClick={handleRefresh}
-      disabled={isPending}
+      onClick={() => refetch()}
+      disabled={isFetching}
     >
-      <RefreshCw size={20} />
+      <RefreshCw size={20} className={cn(isFetching && "animate-spin")} />
     </Button>
   )
 }

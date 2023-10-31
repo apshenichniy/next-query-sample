@@ -18,7 +18,6 @@ const Posts = () => {
           <h1 className="mr-2 text-2xl font-semibold text-slate-800">Posts</h1>
           <RefreshPosts />
         </div>
-        <AddPost />
       </div>
       {isPending && (
         <div className="flex items-center text-2xl font-medium text-slate-500">
@@ -32,6 +31,7 @@ const Posts = () => {
         </div>
       )}
       {posts?.map((post) => <Post key={post.id} data={post} />)}
+      <AddPost />
     </div>
   )
 }
